@@ -52,7 +52,7 @@ Complexity: O(E log E) using Union-Find.
 
 ## Results
 
-![MST Graph](results.png)
+![MST Graph](images/results.png)
 
 From the conducted experiments on graphs of different sizes and densities, both Prim’s and Kruskal’s algorithms successfully computed the Minimum Spanning Tree (MST) with identical total costs for all graphs, confirming the correctness of the implementations.
 
