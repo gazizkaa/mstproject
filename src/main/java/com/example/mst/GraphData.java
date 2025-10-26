@@ -3,19 +3,20 @@ package com.example.mst;
 import java.util.List;
 
 public class GraphData {
-    public int id;
-    public List<String> nodes;
-    public List<EdgeData> edges;
+    private int id;
+    private List<String> nodes;
+    private List<EdgeData> edges;
 
-    public GraphData(int id, List<String> nodes, List<EdgeData> edges) {
-        this.id = id;
-        this.nodes = nodes;
-        this.edges = edges;
+    // Getters
+    public int getId() {
+        return id;
     }
 
+    public List<String> getNodes() {
+        return nodes;
+    }
 
-    @Override
-    public String toString() {
-        return "Graph " + id + " with " + nodes.size() + " nodes and " + edges.size() + " edges";
+    public List<EdgeData> getEdges() {
+        return edges;
     }
 }

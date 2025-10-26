@@ -1,19 +1,20 @@
 package com.example.mst;
 
 public class EdgeData {
-    public String from;
-    public String to;
-    public int weight;
+    private String from;
+    private String to;
+    private int weight;
 
-    public EdgeData(String from, String to, int weight) {
-        this.from = from;
-        this.to = to;
-        this.weight = weight;
+    // Getters
+    public String getFrom() {
+        return from;
     }
 
+    public String getTo() {
+        return to;
+    }
 
-    @Override
-    public String toString() {
-        return from + " - " + to + " (" + weight + ")";
+    public int getWeight() {
+        return weight;
     }
 }
