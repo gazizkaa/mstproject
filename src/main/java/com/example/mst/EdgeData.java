@@ -17,4 +17,9 @@ public class EdgeData {
     public int getWeight() {
         return weight;
     }
+
+    @Override
+    public String toString() {
+        return from + " - " + to + " : " + weight;
+    }
 }
